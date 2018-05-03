@@ -1,0 +1,15 @@
+Version 1.0
+	Release
+
+Version 1.1
+    Updated Revolution Slider to its latest version.
+    Updated Visual Composer to its latest version.
+    Updated documentation.
+
+Version 1.2
+    Compatibility with WooCommerce 3.0+ is added
+    Plugins included in the theme, updated to their latest versions
+	
+Version 1.3
+	Plugins updated 
+    Dummy data import fixed

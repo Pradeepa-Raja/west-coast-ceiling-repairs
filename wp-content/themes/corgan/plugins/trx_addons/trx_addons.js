@@ -1,0 +1,21 @@
+/* global jQuery:false */
+/* global CORGAN_STORAGE:false */
+/* global TRX_ADDONS_STORAGE:false */
+
+jQuery(document).on('action.add_googlemap_styles', corgan_trx_addons_add_googlemap_styles);
+jQuery(document).on('action.init_shortcodes', corgan_trx_addons_init);
+jQuery(document).on('action.init_hidden_elements', corgan_trx_addons_init);
+
+// Add theme specific styles to the Google map
+function corgan_trx_addons_add_googlemap_styles(e) {
+	TRX_ADDONS_STORAGE['googlemap_styles']['dark'] = [{"featureType":"all","elementType":"geometry.fill","stylers":[{"color":"#494949"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"all","stylers":[{"invert_lightness":true},{"saturation":"0"},{"gamma":"1.00"},{"color":"#434343"},{"visibility":"on"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"},{"lightness":"-9"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"},{"color":"#494949"}]},{"featureType":"landscape","elementType":"all","stylers":[{"lightness":"4"},{"visibility":"on"},{"color":"#434343"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"},{"color":"#494949"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#747474"},{"lightness":"0"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"lightness":"0"},{"gamma":"0.67"},{"weight":"1"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"on"},{"saturation":"-100"},{"lightness":"-13"}]},{"featureType":"road.highway","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.fill","stylers":[{"lightness":"-8"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.stroke","stylers":[{"weight":"1.50"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"visibility":"on"},{"weight":"0.50"},{"color":"#575757"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"all","stylers":[{"color":"#575757"},{"lightness":"11"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"weight":"0.4"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":"-36"}]},{"featureType":"road.local","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"},{"color":"#808080"}]},{"featureType":"transit","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#494949"},{"lightness":"3"}]},{"featureType":"transit","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"lightness":"0"},{"color":"#282828"}]},{"featureType":"water","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]}];
+}
+
+
+function corgan_trx_addons_init(e, container) {
+	"use strict";
+	if (arguments.length < 2) var container = jQuery('body');
+	if (container===undefined || container.length === undefined || container.length == 0) return;
+
+	container.find('.sc_countdown_item canvas:not(.inited)').addClass('inited').attr('data-color', CORGAN_STORAGE['alter_link_color']);
+}
