@@ -18,6 +18,8 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 /* header */
-.top_panel.top_panel_style_2.with_bg_image.corgan_inline_0.scheme_default {  background: #fff !important;}
+ .top_panel_navi.with_bg_image.scheme_default, .scheme_default .top_panel_navi.state_fixed .menu_main_wrap {  background: #fff !important;}
  nav ul li a {  color: #000 !important;}
 .sc_item_button.top_panel_nav_button, .contact_field.contact_cart{ display: none; }
+/* menu */
+.current-menu-ancestor a { color: #1C75BB !important;}
