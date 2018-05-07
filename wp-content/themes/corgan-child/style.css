@@ -36,4 +36,16 @@ body p, body ul li { color: #000; }
 .about-west-coast-ceiling-h2 h2 {
     color: #00ADEE;
 }
+/* what we can do */
+.what-we-can-do-for-you .vc_general.vc_cta3 { background: none;}
+.get-quote-button button.vc_general.vc_btn3 {
+    background: #00ADEE !important; border: 1px solid #00ADEE !important;
+}
+/* contact */
+.contact-us-page-address h2 { font-size: 18px !important; }
+.contactformleft { width: 42%; float: left;}
+.contactform-textarea .wpcf7-form-control.wpcf7-textarea { min-height: 208px;}
+.contactform li { list-style: none !important;}
+.contactform ul { padding-left: 0; padding-top: 20px;}
+.contactformleft li { margin-bottom: 10px;}
 
