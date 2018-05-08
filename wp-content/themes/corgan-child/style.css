@@ -57,5 +57,7 @@ body p, body ul li { color: #000; }
     padding-top: 15px;
     display: block;
 }
-
 .scheme_default a:hover{ color: #03AEEE !important; }
+/* gallery */
+.eg-washington-element-1 { display: none !important; }
+.esg-center.eg-washington-element-0-a.esg-falldown { left: 25px;}
