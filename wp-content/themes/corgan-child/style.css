@@ -71,3 +71,15 @@ body p, body ul li { color: #000; }
 .esg-center.eg-washington-element-0-a.esg-falldown { left: 10px;}
 /* home project hover */
 .scheme_default .home-our-projects .sc_services_port_style .sc_services_item_info{ background-color: rgba(0, 173, 238, 0.6) !important;  }
+/* footer */
+footer { margin-top: 50px !important; }
+.scheme_default .footer_wrap .widget_title, .scheme_default h2{ color: #00ADEE !important; }
+.scheme_default aside li > a{ color: #000 !important; }
+/* service page */
+.servicepageh2 h4 a, .scheme_default .servicepageh2 .sc_item_button a.sc_button.sc_button_simple{ color: #1C75BB !important; }
+.scheme_default .servicepageh2 .sc_item_button a.sc_button.sc_button_simple:hover{ color:#00ADEE !important;}
+.what-we-can-do-for-you h2 {
+    color: #fff !important;
+}
+
+
