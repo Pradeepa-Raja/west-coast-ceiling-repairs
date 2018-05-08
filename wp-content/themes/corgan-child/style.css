@@ -23,8 +23,14 @@
 .scheme_default .sc_button_hover_slide_left, .scheme_default .sc_button_hover_slide_left, .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left { background: #00ADEE !important;}
 .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left:hover{ background: #1C75BB;}
 .scheme_default h1, .scheme_default h2, .scheme_default h3, .scheme_default h1 a, .scheme_default h2 a, .scheme_default h3 a, .scheme_default li a{ color: #2A7EBF; }
+/* h2 */
+.sc_item_title.sc_services_title.sc_align_default.sc_item_title_style_default {
+    color: #1C75BB;
+}
 /* h6 */
 .sc_item_subtitle.sc_services_subtitle.sc_align_default.sc_item_title_style_default { margin-bottom: 0px !important; padding-bottom: 0px;}
+/* hidden icon */
+.sc_item_title + .sc_item_subtitle::after{ display: none; }
 .scheme_default .sc_item_subtitle { color: #00ADEE;}
 body p, body ul li { color: #000; }
 /* header */
@@ -36,6 +42,8 @@ body p, body ul li { color: #000; }
 /* home services list */
 .home-services-list ul li{ color: #fff !important; padding: 1px 0; display: block; }
 .home-services-list ul li img { width: 9px; padding-top: 7px; padding-right: 10px; }
+.home .sc_services_item a:hover { color: #fff !important; }
+.home .sc_services_port_style .sc_services_item_info{ padding: 2.65rem 2em 2.5em; }
 /* why west coast ceiling perth */
 .why-west-coast ul li{ color: #000 !important; }
 /* about us */
@@ -63,3 +71,5 @@ body p, body ul li { color: #000; }
 /* gallery */
 .eg-washington-element-1 { display: none !important; }
 .esg-center.eg-washington-element-0-a.esg-falldown { left: 10px;}
+/* home project hover */
+.scheme_default .sc_services_port_style .sc_services_item_info{ background-color: rgba(0, 173, 238, 0.6);  }
