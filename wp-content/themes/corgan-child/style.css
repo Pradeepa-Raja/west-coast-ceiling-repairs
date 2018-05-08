@@ -23,10 +23,11 @@
 .scheme_default .sc_button_hover_slide_left, .scheme_default .sc_button_hover_slide_left, .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left { background: #00ADEE !important;}
 .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left:hover{ background: #1C75BB;}
 .scheme_default h1, .scheme_default h2, .scheme_default h3, .scheme_default h1 a, .scheme_default h2 a, .scheme_default h3 a, .scheme_default li a{ color: #2A7EBF; }
+.home-page-servicesection .sc_services_item_button .sc_button { color: #fff !important;}
 /* h2 */
-.sc_item_title.sc_services_title.sc_align_default.sc_item_title_style_default {
-    color: #1C75BB;
-}
+.sc_item_title.sc_services_title.sc_align_default.sc_item_title_style_default, .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple { color: #1C75BB !important;}	
+.home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ border: 1px solid #1C75BB !important; padding: 12px 30px; }
+.why-west-coast h2 { font-family: "Crimson Text",serif;}
 /* h6 */
 .sc_item_subtitle.sc_services_subtitle.sc_align_default.sc_item_title_style_default { margin-bottom: 0px !important; padding-bottom: 0px;}
 /* hidden icon */
@@ -40,6 +41,9 @@ body p, body ul li { color: #000; }
 /* menu */
 .current-menu-ancestor a { color: #1C75BB !important;}
 /* home services list */
+.scheme_default .home-page-servicesection .post_featured.hover_dots:hover .mask{
+    background: rgba(0, 173, 238, 0.3) !important;
+}
 .home-services-list ul li{ color: #fff !important; padding: 1px 0; display: block; }
 .home-services-list ul li img { width: 9px; padding-top: 7px; padding-right: 10px; }
 .home .sc_services_item a:hover { color: #fff !important; }
@@ -47,14 +51,11 @@ body p, body ul li { color: #000; }
 /* why west coast ceiling perth */
 .why-west-coast ul li{ color: #000 !important; }
 /* about us */
-.about-west-coast-ceiling-h2 h2 {
-    color: #00ADEE;
-}
+.about-west-coast-ceiling-h2 h2 { color: #00ADEE;}
+.about-west-coast-ceiling-h2 h4 a { color: #00ADEE !important;}
 /* what we can do */
 .what-we-can-do-for-you .vc_general.vc_cta3 { background: none;}
-.get-quote-button button.vc_general.vc_btn3 {
-    background: #00ADEE !important; border: 1px solid #00ADEE !important;
-}
+.get-quote-button button.vc_general.vc_btn3 { background: #00ADEE !important; border: 1px solid #00ADEE !important; }
 /* contact */
 .contact-us-page-address h2 { font-size: 18px !important; }
 .contactformleft { width: 42%; float: left;}
@@ -63,13 +64,10 @@ body p, body ul li { color: #000; }
 .contactform ul { padding-left: 0; padding-top: 20px;}
 .contactformleft li { margin-bottom: 10px;}
 .contactformli input { margin-top: 3px;}
-.contactformbutton {
-    padding-top: 15px;
-    display: block;
-}
+.contactformbutton { padding-top: 15px;  display: block;}
 .scheme_default a:hover{ color: #03AEEE !important; }
 /* gallery */
 .eg-washington-element-1 { display: none !important; }
 .esg-center.eg-washington-element-0-a.esg-falldown { left: 10px;}
 /* home project hover */
-.scheme_default .sc_services_port_style .sc_services_item_info{ background-color: rgba(0, 173, 238, 0.6);  }
+.scheme_default .home-our-projects .sc_services_port_style .sc_services_item_info{ background-color: rgba(0, 173, 238, 0.6) !important;  }
