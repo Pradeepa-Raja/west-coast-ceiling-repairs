@@ -73,6 +73,9 @@ body p, body ul li { color: #000; }
 .scheme_default .home-our-projects .sc_services_port_style .sc_services_item_info{ background-color: rgba(0, 173, 238, 0.6) !important;  }
 /* footer */
 footer { margin-top: 50px !important; }
+.home footer { margin-top: 0 !important;}
+footer .menu_footer_nav_area { display: none;}
+footer .copyright_wrap_inner {  padding: 14px 0;}
 .scheme_default footer .copyright_wrap_inner { background: #1C75BB !important; border-color: #1C75BB !important;}
 .scheme_default .footer_wrap .widget_title, .scheme_default h2{ color: #00ADEE !important; }
 .scheme_default aside li > a{ color: #000 !important; }
@@ -83,6 +86,8 @@ footer { margin-top: 50px !important; }
     color: #fff !important;
 }
 /* banner */
-#slide-1-layer-4.tp-caption.MiddleWhiteText { color: #000;}
+#rev_slider_1_1 a {  color: #000 !important;}
+.SliderButton:hover:active { background: none !important; border: #1E76BB !important;}
+#rev_slider_1_1 .tp-caption.BigWhiteText.tp-resizeme, #rev_slider_1_1 .tp-caption.MiddleWhiteText { color: #1C75BB;}
 
 
