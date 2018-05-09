@@ -25,8 +25,9 @@
 .scheme_default h1, .scheme_default h2, .scheme_default h3, .scheme_default h1 a, .scheme_default h2 a, .scheme_default h3 a, .scheme_default li a{ color: #2A7EBF; }
 .home-page-servicesection .sc_services_item_button .sc_button { color: #fff !important;}
 /* h2 */
-.sc_item_title.sc_services_title.sc_align_default.sc_item_title_style_default, .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple { color: #1C75BB !important;}	
-.home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ border: 1px solid #1C75BB !important; padding: 12px 30px; }
+.sc_item_title.sc_services_title.sc_align_default.sc_item_title_style_default { color: #1C75BB !important;}	
+ .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ color: #00ADEE !important; }
+.home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ border: 1px solid #00ADEE !important; padding: 12px 30px; }
 .why-west-coast h2 { font-family: "Crimson Text",serif;}
 /* h6 */
 .sc_item_subtitle.sc_services_subtitle.sc_align_default.sc_item_title_style_default { margin-bottom: 0px !important; padding-bottom: 0px;}
@@ -53,9 +54,14 @@ body p, body ul li { color: #000; }
 /* about us */
 .about-west-coast-ceiling-h2 h2 { color: #00ADEE;}
 .about-west-coast-ceiling-h2 h4 a { color: #00ADEE !important;}
+.aboutush2 h2, .aboutush2 h6 {
+    text-align: left !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0px !important;
+}
 /* what we can do */
 .what-we-can-do-for-you .vc_general.vc_cta3 { background: none;}
-.get-quote-button button.vc_general.vc_btn3 { background: #00ADEE !important; border: 1px solid #00ADEE !important; }
+.get-quote-button button.vc_general.vc_btn3 { background: #000 !important; border: 1px solid #000 !important; }
 /* contact */
 .contact-us-page-address h2 { font-size: 18px !important; }
 .contactformleft { width: 42%; float: left;}
@@ -72,7 +78,6 @@ body p, body ul li { color: #000; }
 /* home project hover */
 .scheme_default .home-our-projects .sc_services_port_style .sc_services_item_info{ background-color: rgba(0, 173, 238, 0.6) !important;  }
 /* footer */
-footer { margin-top: 50px !important; }
 .home footer { margin-top: 0 !important;}
 footer .menu_footer_nav_area { display: none;}
 footer .copyright_wrap_inner {  padding: 14px 0;}
@@ -80,10 +85,15 @@ footer .copyright_wrap_inner {  padding: 14px 0;}
 .scheme_default .footer_wrap .widget_title, .scheme_default h2{ color: #00ADEE !important; }
 .scheme_default aside li > a{ color: #000 !important; }
 /* service page */
-.servicepageh2 h4 a, .scheme_default .servicepageh2 .sc_item_button a.sc_button.sc_button_simple{ color: #1C75BB !important; }
+.servicepageh2 h4 a{ color: #1C75BB !important; }
+.scheme_default .servicepageh2 .sc_item_button a.sc_button.sc_button_simple {
+    color: #1C75BB !important;
+    padding: 10px 20px;
+    border: 1px solid #1C75BB !important;
+}
 .scheme_default .servicepageh2 .sc_item_button a.sc_button.sc_button_simple:hover{ color:#00ADEE !important;}
 .what-we-can-do-for-you h2 {
-    color: #fff !important;
+    color: #000 !important;
 }
 /* banner */
 #rev_slider_1_1 a {  color: #000 !important;}
