@@ -80,6 +80,10 @@ body p, body ul li { color: #000; }
 .contact-address .contactform-textarea { clear: both;}
 .contact-address .contactformli { width: 211px; float: none; clear: both;}
 .contact-address .wpcf7-form-control-wrap.your-message textarea { width: 200px; clear: both;}
+.contact-address .contactformli input { border-radius:0 !important; width: 200px !important; padding: 10px 10px !important; height: 32px !important;}
+.contact-address .wpcf7-form-control.wpcf7-textarea { min-height: 100px !important; border-radius: 0 !important;}
+aside .contactform li::before { display: none;}
+
 /* gallery */
 .eg-washington-element-1 { display: none !important; }
 .esg-center.eg-washington-element-0-a.esg-falldown { left: 10px;}
