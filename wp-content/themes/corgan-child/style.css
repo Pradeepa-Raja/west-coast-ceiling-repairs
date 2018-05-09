@@ -73,6 +73,7 @@ body p, body ul li { color: #000; }
 .scheme_default .home-our-projects .sc_services_port_style .sc_services_item_info{ background-color: rgba(0, 173, 238, 0.6) !important;  }
 /* footer */
 footer { margin-top: 50px !important; }
+.scheme_default footer .copyright_wrap_inner { background: #1C75BB !important; border-color: #1C75BB !important;}
 .scheme_default .footer_wrap .widget_title, .scheme_default h2{ color: #00ADEE !important; }
 .scheme_default aside li > a{ color: #000 !important; }
 /* service page */
@@ -81,5 +82,7 @@ footer { margin-top: 50px !important; }
 .what-we-can-do-for-you h2 {
     color: #fff !important;
 }
+/* banner */
+#slide-1-layer-4.tp-caption.MiddleWhiteText { color: #000;}
 
 
