@@ -29,6 +29,10 @@
  .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ color: #00ADEE !important; }
 .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ border: 1px solid #00ADEE !important; padding: 12px 30px; }
 .why-west-coast h2 { font-family: "Crimson Text",serif;}
+/* breadcrumbs */
+.breadcrumbs {
+    display: none'';
+}
 /* h6 */
 .sc_item_subtitle.sc_services_subtitle.sc_align_default.sc_item_title_style_default { margin-bottom: 0px !important; padding-bottom: 0px;}
 /* hidden icon */
@@ -72,6 +76,10 @@ body p, body ul li { color: #000; }
 .contactformli input { margin-top: 3px;}
 .contactformbutton { padding-top: 15px;  display: block;}
 .scheme_default a:hover{ color: #03AEEE !important; }
+/* aside contact us */
+.contact-address .contactform-textarea { clear: both;}
+.contact-address .contactformli { width: 211px; float: none; clear: both;}
+.contact-address .wpcf7-form-control-wrap.your-message textarea { width: 200px; clear: both;}
 /* gallery */
 .eg-washington-element-1 { display: none !important; }
 .esg-center.eg-washington-element-0-a.esg-falldown { left: 10px;}
