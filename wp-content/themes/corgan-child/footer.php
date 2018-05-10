@@ -159,15 +159,10 @@
 
 
                             ?>
-							<div class="copyright_text"><?php
-								$corgan_copyright = corgan_prepare_macros(corgan_get_theme_option('copyright'));
-								if (!empty($corgan_copyright)) {
-									if (preg_match("/(\\{[\\w\\d\\\\\\-\\:]*\\})/", $corgan_copyright, $corgan_matches)) {
-										$corgan_copyright = str_replace($corgan_matches[1], date(str_replace(array('{', '}'), '', $corgan_matches[1])), $corgan_copyright);
-									}
-									corgan_show_layout(nl2br($corgan_copyright));
-								}
-							?></div>
+							<div class="copyright_text">
+								
+							© 2018, West Coast Ceiling Repairs Designed by <a href="https://www.predikkta.com/" target="_blank">Predikkta</a>
+							</div>
 						</div>
 					</div>
 				</div>
