@@ -23,9 +23,7 @@
 header .sc_item_button.top_panel_nav_button{ display: block !important; }
 header .sc_item_button.top_panel_nav_button a { font-size: 17px !important;  color: #000 !important;}
 header .scheme_default .top_panel_nav_button .sc_button_hover_slide_left { background: linear-gradient(to right, #00ADEE 50%,#ffffff 50%) no-repeat scroll right bottom / 210% 100% #00ADEE !important;}
-.sc_button.sc_button_icon_left.sc_button_hover_slide_left:hover {
-    background: #00ADEE !important;
-}
+.sc_button.sc_button_icon_left.sc_button_hover_slide_left:hover { background: #00ADEE !important;}
 .scheme_default h1, .scheme_default h2, .scheme_default h3, .scheme_default h1 a, .scheme_default h2 a, .scheme_default h3 a, .scheme_default li a{ color:#1C75BB; }
 .scheme_default input[type="text"], .scheme_default input[type="number"], .scheme_default input[type="email"], .scheme_default input[type="tel"], .scheme_default input[type="search"], .scheme_default input[type="password"], .scheme_default .select_container::before, .scheme_default .select2-container .select2-choice, .scheme_default .select2-container .select2-selection, .scheme_default textarea, .scheme_default select, .scheme_default textarea.wp-editor-area{ border: 1px solid #00ADEE !important; }
 .scheme_default .sc_button_hover_slide_left, .scheme_default .sc_button_hover_slide_left, .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left { background: #00ADEE !important;}
@@ -128,6 +126,8 @@ footer .copyright_wrap_inner {  padding: 14px 0;}
 /* banner */
 #rev_slider_1_1 a {  color: #000 !important;}
 .SliderButton:hover:active { background: none !important; border: #1E76BB !important;}
+#slide-2-layer-4, #slide-2-layer-3 { color: #000 !important;}
+#slide-2-layer-5:hover, #slide-1-layer-5:hover, #slide-3-layer-5:hover { background: none !important; border: 1px solid #000 !important;}
 
 
 
