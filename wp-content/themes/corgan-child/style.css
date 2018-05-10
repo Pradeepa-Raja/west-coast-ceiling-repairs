@@ -18,6 +18,7 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 /* deafult styles */
+.top_panel{ margin-bottom: 80px !important; }
 .scheme_default h1, .scheme_default h2, .scheme_default h3, .scheme_default h1 a, .scheme_default h2 a, .scheme_default h3 a, .scheme_default li a{ color:#1C75BB; }
 .scheme_default input[type="text"], .scheme_default input[type="number"], .scheme_default input[type="email"], .scheme_default input[type="tel"], .scheme_default input[type="search"], .scheme_default input[type="password"], .scheme_default .select_container::before, .scheme_default .select2-container .select2-choice, .scheme_default .select2-container .select2-selection, .scheme_default textarea, .scheme_default select, .scheme_default textarea.wp-editor-area{ border: 1px solid #00ADEE !important; }
 .scheme_default .sc_button_hover_slide_left, .scheme_default .sc_button_hover_slide_left, .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left { background: #00ADEE !important;}
@@ -66,7 +67,8 @@ body p, body ul li { color: #000; }
 }
 /* what we can do */
 .what-we-can-do-for-you .vc_general.vc_cta3 { background: none;}
-.get-quote-button a { background: #1C75BB !important; border: #1C75BB !important; font-size: 18px !important; padding: 10px 35px 12px 35px !important;}
+.get-quote-button a {  background: #1C75BB !important; border: #1C75BB !important; font-size: 17px !important; padding: 10px 35px 12px 35px !important; text-transform: uppercase; font-weight: 600 !important;}
+.scheme_default .get-quote-button a:hover { color: #fff !important;}
 .get-quote-button button.vc_general.vc_btn3 { background: #1C75BB !important; border: 1px solid #1C75BB !important; }
 .get-quote-button button.vc_general.vc_btn3:hover { color: #fff !important;}
 /* contact */
@@ -79,6 +81,7 @@ body p, body ul li { color: #000; }
 .contactformli input { margin-top: 3px;}
 .contactformbutton { padding-top: 15px;  display: block;}
 .scheme_default a:hover{ color: #03AEEE !important; }
+.vc_row.wpb_row.vc_row-fluid.contactus-form.vc_custom_1525927072680 { border-top: 1px dashed #1C75BB; margin-top: 17px; }
 /* aside contact us */
 .contact-address .contactform-textarea { clear: both;}
 .contact-address .contactformli { width: 211px; float: none; clear: both;}
