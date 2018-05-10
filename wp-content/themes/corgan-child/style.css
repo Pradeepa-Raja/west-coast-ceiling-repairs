@@ -30,15 +30,15 @@
 .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ border: 1px solid #00ADEE !important; padding: 12px 30px; }
 .why-west-coast h2 { font-family: "Crimson Text",serif;}
 /* breadcrumbs */
-.breadcrumbs {
-    display: none'';
-}
+.breadcrumbs { display: none;}
+.home .about-west-coast-ceiling-h2 .sc_services_item a:hover { color: #1C75BB !important;}
 /* h6 */
 .sc_item_subtitle.sc_services_subtitle.sc_align_default.sc_item_title_style_default { margin-bottom: 0px !important; padding-bottom: 0px;}
 /* hidden icon */
 .sc_item_title + .sc_item_subtitle::after{ display: none; }
 .scheme_default .sc_item_subtitle { color: #00ADEE;}
 body p, body ul li { color: #000; }
+.sc_item_subtitle{ font-family: "Source Sans Pro",sans-serif !important; font-size: 13px !important; font-weight: normal !important; }
 /* header */
  .top_panel_navi.with_bg_image.scheme_default, .scheme_default .top_panel_navi.state_fixed .menu_main_wrap {  background: #fff !important;}
  nav ul li a {  color: #000 !important;}
@@ -65,7 +65,8 @@ body p, body ul li { color: #000; }
 }
 /* what we can do */
 .what-we-can-do-for-you .vc_general.vc_cta3 { background: none;}
-.get-quote-button button.vc_general.vc_btn3 { background: #000 !important; border: 1px solid #000 !important; }
+.get-quote-button button.vc_general.vc_btn3 { background: #1C75BB !important; border: 1px solid #1C75BB !important; }
+.get-quote-button button.vc_general.vc_btn3:hover { color: #fff !important;}
 /* contact */
 .contact-us-page-address h2 { font-size: 18px !important; }
 .contactformleft { width: 42%; float: left;}
@@ -83,7 +84,8 @@ body p, body ul li { color: #000; }
 .contact-address .contactformli input { border-radius:0 !important; width: 200px !important; padding: 10px 10px !important; height: 32px !important;}
 .contact-address .wpcf7-form-control.wpcf7-textarea { min-height: 100px !important; border-radius: 0 !important;}
 aside .contactform li::before { display: none;}
-
+aside .widget_title { color: #00ADEE !important;}
+.scheme_default aside a { color: #1C75BB !important; }
 /* gallery */
 .eg-washington-element-1 { display: none !important; }
 .esg-center.eg-washington-element-0-a.esg-falldown { left: 10px;}
@@ -105,11 +107,11 @@ footer .copyright_wrap_inner {  padding: 14px 0;}
 }
 .scheme_default .servicepageh2 .sc_item_button a.sc_button.sc_button_simple:hover{ color:#00ADEE !important;}
 .what-we-can-do-for-you h2 {
-    color: #000 !important;
+    color: #1C75BB !important;
 }
 /* banner */
 #rev_slider_1_1 a {  color: #000 !important;}
 .SliderButton:hover:active { background: none !important; border: #1E76BB !important;}
-#rev_slider_1_1 .tp-caption.BigWhiteText.tp-resizeme, #rev_slider_1_1 .tp-caption.MiddleWhiteText { color: #1C75BB;}
+
 
 

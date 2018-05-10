@@ -16,6 +16,8 @@ while ( have_posts() ) { the_post();
 	// If comments are open or we have at least one comment, load up the comment template.
 	if ( !is_front_page() && ( comments_open() || get_comments_number() ) ) {
 		comments_template();
+
+		
 	}
 }
 
