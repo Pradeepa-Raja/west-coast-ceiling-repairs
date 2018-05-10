@@ -47,9 +47,18 @@ body p, body ul li { color: #000; }
  nav ul li a {  color: #000 !important;}
 .sc_item_button.top_panel_nav_button, .contact_field.contact_cart{ display: none; }
 /* menu */
+.scheme_default .menu_main_nav > li ul, .scheme_default .menu_main_nav > li > ul::before {
+    background-color: #00ADEE !important;
+}
+.scheme_default .sub-menu a {
+    color: #fff !important;
+}
+.scheme_default .sub-menu a:hover {
+    color: #000 !important;
+}
 .current-menu-ancestor a { color: #1C75BB !important;}
 /* home services list */
-.scheme_default .home-page-servicesection .post_featured.hover_dots:hover .mask{
+.scheme_default .home-page-servicesection .post_featured.hover_dots:hover .mask, .scheme_default .servicepageh2 .post_featured .mask{
     background: rgba(0, 173, 238, 0.3) !important;
 }
 .home-services-list ul li{ color: #fff !important; padding: 1px 0; display: block; }
@@ -70,7 +79,7 @@ body p, body ul li { color: #000; }
 .what-we-can-do-for-you .vc_general.vc_cta3 { background: none;}
 .get-quote-button a {  background: #1C75BB !important; border: #1C75BB !important; font-size: 17px !important; padding: 10px 35px 12px 35px !important; text-transform: uppercase; font-weight: 600 !important;}
 .scheme_default .get-quote-button a:hover { color: #fff !important;}
-.get-quote-button button.vc_general.vc_btn3 { background: #1C75BB !important; border: 1px solid #1C75BB !important; }
+.get-quote-button button.vc_general.vc_btn3 { border-radius: 31px !important; background: #1C75BB !important; border: 1px solid #1C75BB !important; }
 .get-quote-button button.vc_general.vc_btn3:hover { color: #fff !important;}
 /* contact */
 .contact-us-page-address h2 { font-size: 18px !important; }
