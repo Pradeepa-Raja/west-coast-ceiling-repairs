@@ -20,6 +20,12 @@
 /* deafult styles */
 .scheme_default.vc_transform a { color: #00ADEE;}
 .top_panel{ margin-bottom: 80px !important; }
+header .sc_item_button.top_panel_nav_button{ display: block !important; }
+header .sc_item_button.top_panel_nav_button a { font-size: 17px !important;  color: #000 !important;}
+header .scheme_default .top_panel_nav_button .sc_button_hover_slide_left { background: linear-gradient(to right, #00ADEE 50%,#ffffff 50%) no-repeat scroll right bottom / 210% 100% #00ADEE !important;}
+.sc_button.sc_button_icon_left.sc_button_hover_slide_left:hover {
+    background: #00ADEE !important;
+}
 .scheme_default h1, .scheme_default h2, .scheme_default h3, .scheme_default h1 a, .scheme_default h2 a, .scheme_default h3 a, .scheme_default li a{ color:#1C75BB; }
 .scheme_default input[type="text"], .scheme_default input[type="number"], .scheme_default input[type="email"], .scheme_default input[type="tel"], .scheme_default input[type="search"], .scheme_default input[type="password"], .scheme_default .select_container::before, .scheme_default .select2-container .select2-choice, .scheme_default .select2-container .select2-selection, .scheme_default textarea, .scheme_default select, .scheme_default textarea.wp-editor-area{ border: 1px solid #00ADEE !important; }
 .scheme_default .sc_button_hover_slide_left, .scheme_default .sc_button_hover_slide_left, .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left { background: #00ADEE !important;}
@@ -47,20 +53,13 @@ body p, body ul li { color: #000; }
  nav ul li a {  color: #000 !important;}
 .sc_item_button.top_panel_nav_button, .contact_field.contact_cart{ display: none; }
 /* menu */
-.scheme_default .menu_main_nav > li ul, .scheme_default .menu_main_nav > li > ul::before {
-    background-color: #00ADEE !important;
-}
-.scheme_default .sub-menu a {
-    color: #fff !important;
-}
-.scheme_default .sub-menu a:hover {
-    color: #000 !important;
-}
+.scheme_default .menu_main_nav > li li > a { color: #ffffff; padding: 10px 0;}
+.scheme_default .menu_main_nav > li ul, .scheme_default .menu_main_nav > li > ul::before { background-color: #00ADEE !important;}
+.scheme_default .sub-menu a { color: #fff !important;}
+.scheme_default .sub-menu a:hover {  color: #000 !important;}
 .current-menu-ancestor a { color: #1C75BB !important;}
 /* home services list */
-.scheme_default .home-page-servicesection .post_featured.hover_dots:hover .mask, .scheme_default .servicepageh2 .post_featured .mask{
-    background: rgba(0, 173, 238, 0.3) !important;
-}
+.scheme_default .home-page-servicesection .post_featured.hover_dots:hover .mask, .scheme_default .servicepageh2 .post_featured .mask{ background: rgba(0, 173, 238, 0.3) !important;}
 .home-services-list ul li{ color: #fff !important; padding: 1px 0; display: block; }
 .home-services-list ul li img { width: 9px; padding-top: 7px; padding-right: 10px; }
 .home .sc_services_item a:hover { color: #fff !important; }
