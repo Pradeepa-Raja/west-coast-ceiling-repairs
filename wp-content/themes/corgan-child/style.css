@@ -39,9 +39,14 @@ header .scheme_default .top_panel_nav_button .sc_button_hover_slide_left { backg
 /* h2 */
 .sc_item_title.sc_services_title.sc_align_default.sc_item_title_style_default { color: #1C75BB !important;}	
  .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ color: #00ADEE !important; }
+ .about-west-coast-ceiling-h2 .sc_item_descr.sc_services_descr.sc_align_default { margin-top: 20px !important;}
+ .home-our-projects .sc_item_descr{ margin-top: 25px !important; }
 .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple:hover {   color: #fff !important; background: #00ADEE !important;}
 .home-page-servicesection .about-west-coast-ceiling-h2 .sc_services_item_info .sc_services_item_button.sc_item_button a.sc_button.sc_button_simple{ border: 1px solid #00ADEE !important; padding: 12px 30px; }
 .why-west-coast h2 { font-family: "Crimson Text",serif;}
+/* service individual */
+.servicelist-li span { position: absolute; top: 16px; left: 0; background: #fff; width: 81px; text-align: center; padding: 1px 0px;}
+.servicelist-li li { float: left;  width: 42%; list-style: none; margin-right: 10px; position: relative; list-style: none;}
 /* breadcrumbs */
 .breadcrumbs { display: none;}
 .home .about-west-coast-ceiling-h2 .sc_services_item a:hover { color: #1C75BB !important;}
@@ -160,7 +165,7 @@ nav .open_child_menu { left: 20% !important; top: 15px !important;}
 .scheme_default .menu_side_inner, .scheme_default .menu_mobile_inner{ background-color: rgba(255, 255, 255, 0.9) !important; }
 .menu_mobile_nav_area .scheme_default .sub-menu a { color: #000 !important;}
 .menu_mobile_close::before, .menu_mobile_close::after{ width: 41% !important; }
-.scheme_default .menu_mobile_close::before, .scheme_default .menu_mobile_close::after{ border-color: #fff !important; }
+.scheme_default .menu_mobile_close::before, .scheme_default .menu_mobile_close::after{ border-color: #000 !important; }
 .scheme_default .trx_addons_scroll_to_top.sc_button_hover_slide_left, .scheme_default .trx_addons_scroll_to_top.sc_button_hover_slide_left:hover { background: #0EB1EE !important; border: 1px solid #00ADEE; color: #fff !important;}
 .scheme_default.vc_transform a.sc_button_hover_slide_left { color: #000 !important; }
 .scheme_default .top_panel {
