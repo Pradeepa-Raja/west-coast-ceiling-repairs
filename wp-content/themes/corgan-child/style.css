@@ -60,7 +60,7 @@ body p, body ul li { color: #000; }
 .sc_item_subtitle{ font-family: "Source Sans Pro",sans-serif !important; font-size: 13px !important; font-weight: normal !important; }
 /* header */
 header .contact_cart-totals span a{ color: #000 !important; }
-header .contact_cart-totals span, header .cart_items { color: #000 !important; padding-bottom: 10px !important;}
+header .contact_cart-totals span, header .cart_items, header .contact_cart-totals span, header .contact_cart-totals a:hover { color: #00ADEE !important; padding-bottom: 10px !important;}
 .contact_cart-totals a { color: #000 !important;}
 .contact_cart-totals a:hover{ color: #00ADEE !important; }
  .top_panel_navi.with_bg_image.scheme_default, .scheme_default .top_panel_navi.state_fixed .menu_main_wrap {  background: #fff !important;}
