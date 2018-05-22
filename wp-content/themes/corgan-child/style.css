@@ -31,6 +31,7 @@ header .scheme_default .top_panel_nav_button .sc_button_hover_slide_left { backg
     background: none !important;
     color: #00ADEE !important;
 }
+.tp-caption.MiddleWhiteText, .MiddleWhiteText, .tp-caption.BigWhiteText, .BigWhiteText{ color: #00ADEE !important; }
 .scheme_default .sc_button_hover_slide_left:hover, .scheme_default .sc_button_hover_slide_left:hover, .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left:hover{ background: #00ADEE !important; color: #fff !important; }
 .contactformbutton .wpcf7-form-control.wpcf7-submit.sc_button_hover_slide_left:hover{ background: #1C75BB;}
 .scheme_default h1, .scheme_default h2, .scheme_default h3, .scheme_default h1 a, .scheme_default h2 a, .scheme_default h3 a, .scheme_default li a{ color: #2A7EBF; }
@@ -58,9 +59,12 @@ header .scheme_default .top_panel_nav_button .sc_button_hover_slide_left { backg
 body p, body ul li { color: #000; }
 .sc_item_subtitle{ font-family: "Source Sans Pro",sans-serif !important; font-size: 13px !important; font-weight: normal !important; }
 /* header */
+header .contact_cart-totals span a{ color: #000 !important; }
+header .contact_cart-totals span, header .cart_items { color: #000 !important; padding-bottom: 10px !important;}
+.contact_cart-totals a { color: #000 !important;}
+.contact_cart-totals a:hover{ color: #00ADEE !important; }
  .top_panel_navi.with_bg_image.scheme_default, .scheme_default .top_panel_navi.state_fixed .menu_main_wrap {  background: #fff !important;}
  nav ul li a {  color: #000 !important;}
-.sc_item_button.top_panel_nav_button, .contact_field.contact_cart{ display: none; }
 /* menu */
 .scheme_default .menu_main_nav > li li > a { color: #ffffff; padding: 10px 0;}
 .scheme_default .menu_main_nav > li ul, .scheme_default .menu_main_nav > li > ul::before { background-color: #00ADEE !important;}
@@ -138,17 +142,12 @@ footer .copyright_wrap_inner {  padding: 14px 0;}
     background: #00ADEE !important;
     border: 1px solid #00ADEE !important;
 }
-.what-we-can-do-for-you h2 {
-    color: #1C75BB !important;
-}
+.what-we-can-do-for-you h2 { color: #1C75BB !important;}
 /* banner */
-#rev_slider_1_1 a {  color: #fff !important;}
 #rev_slider_1_1 a:hover{ color: #fff !important; }
-.tp-caption.SliderButton.rev-btn.rs-hover-ready{ color: #fff !important; border: 1px solid #fff !important; }
+.tp-caption.SliderButton.rev-btn.rs-hover-ready{ color: #00ADEE !important; border: 1px solid #00ADEE !important; }
 .SliderButton:hover:active { background: none !important; border: #1E76BB !important;}
-#slide-2-layer-4, #slide-2-layer-3 { color: #000 !important;}
-#rev_slider_1_1 #slide-2-layer-5 a{ color: #000 !important; }
-#slide-2-layer-5:hover, #slide-1-layer-5:hover, #slide-3-layer-5:hover { background: #00ADEE !important; border: 1px solid #00ADEE !important;}
+#slide-2-layer-5:hover, #slide-1-layer-5:hover, #slide-3-layer-5:hover { color: #fff !important; background: #00ADEE !important; border: 1px solid #00ADEE !important;}
 /* mobile menu */
 nav .current-menu-item a {  color: #00ADEE !important;}
 .menu_mobile_nav_area { margin-top: 20px;}
