@@ -18,6 +18,7 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 /* deafult styles */
+.scheme_default .sc_item_subtitle {color: #00ADEE !important;}
 .scheme_default.vc_transform a { color: #00ADEE;}
 .top_panel{ margin-bottom: 80px !important; }
 header .sc_item_button.top_panel_nav_button{ display: block !important; }
